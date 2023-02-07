@@ -33,6 +33,7 @@ public class Validation {
             System.out.println("Email is Valid");
         } else {
             System.out.println("Email is Invalid");
+
         }
     }
     public void checkPhoneNumber() {

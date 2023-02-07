@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0100d8cd-cafa-4cd2-978c-66077ed7724b" name="Changes" comment="" />
+    <list default="true" id="0100d8cd-cafa-4cd2-978c-66077ed7724b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/brideglabz/userregistration/RegistrationProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brideglabz/userregistration/RegistrationProblem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
