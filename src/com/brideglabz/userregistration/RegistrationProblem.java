@@ -5,6 +5,6 @@ public class RegistrationProblem {
         System.out.println("Welcome to Regular Expressions program to validate PIN code!");
         Validation validation=new Validation();
         validation.checkFirstName();
-
+        validation.checkLastName();
     }
 }
