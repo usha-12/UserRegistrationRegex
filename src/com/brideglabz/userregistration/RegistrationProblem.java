@@ -10,5 +10,7 @@ public class RegistrationProblem {
         validation.checkPhoneNumber();
         validation.checkPasswordRule1();
         validation.checkPasswordRule2();
+        validation.checkPasswordRule3();
+        validation.checkPasswordRule4();
     }
 }
