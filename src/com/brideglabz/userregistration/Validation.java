@@ -33,7 +33,6 @@ public class Validation {
             System.out.println("Email is Valid");
         } else {
             System.out.println("Email is Invalid");
-
         }
     }
     public void checkPhoneNumber() {
@@ -47,4 +46,30 @@ public class Validation {
             checkPhoneNumber();
         }
     }
+    public void checkPasswordRule1() {
+        System.out.println("------Password Rule1------");
+        System.out.println("Enter Password : ");
+        String password  = sc.nextLine();
+        if (Pattern.matches("^[a-zA-z]{8,}",password)) {
+            System.out.println("Password is Valid");
+        } else {
+            System.out.println("Password is Invalid");
+            checkPasswordRule1();
+        }
+    }
+    public void checkPasswordRule2() {
+        System.out.println("--------Password Rule1-------");
+        System.out.println("Enter Password : ");
+        String password  = sc.nextLine();
+        if (Pattern.matches("^[A-z]+[A-Za-z]{8,}",password)) {
+            System.out.println("Password is Valid");
+        } else {
+            System.out.println("Password is Invalid");
+            checkPasswordRule1();
+        }
+    }
 }
+/*Rule2
+– Should
+have at least 1
+Upper Case - NOTE – All rules must be passed*/
