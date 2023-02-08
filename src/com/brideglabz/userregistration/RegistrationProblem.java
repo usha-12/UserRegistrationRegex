@@ -3,7 +3,7 @@ package com.brideglabz.userregistration;
 public class RegistrationProblem {
     public static void main(String[] args) {
         System.out.println("Welcome to Regular Expressions program to validate PIN code!");
-        Validation validation = new Validation();
+        Validation validation=new Validation();
         validation.checkFirstName();
         validation.checkLastName();
         validation.checkEmail();
@@ -12,5 +12,6 @@ public class RegistrationProblem {
         validation.checkPasswordRule2();
         validation.checkPasswordRule3();
         validation.checkPasswordRule4();
+
     }
 }
